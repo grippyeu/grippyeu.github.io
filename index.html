@@ -40,15 +40,34 @@
             a.appendChild(r);
         })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
     </script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBQTEY167L"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-ZBQTEY167L');
     </script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s)
+        {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '1107470346546642');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1107470346546642&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
 </head>
 
 <body class="font-work-sans comps" id="38362-109671">
@@ -1750,15 +1769,9 @@
             width="0"></iframe>
 </noscript>
 <!-- End Google Tag Manager (noscript) -->
-<!-- crisp -->
-<script type="text/javascript">window.$crisp = [];
-window.CRISP_WEBSITE_ID = "18f9e06a-f6a7-4871-8882-dabdd6f3cec9";
-(function () {
-    d = document;
-    s = d.createElement("script");
-    s.src = "https://client.crisp.chat/l.js";
-    s.async = 1;
-    d.getElementsByTagName("head")[0].appendChild(s);
-})();</script>
+
+<!-- Crisp -->
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="8d09e306-5905-44e0-b765-b5c2ddd4fd51";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
 </body>
 </html>
